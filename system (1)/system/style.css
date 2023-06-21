@@ -1,0 +1,107 @@
+* {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+.page {
+  padding: 10px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* upper banner*/
+.banner {
+  height: 550px;
+  padding: 50px 70px;
+  border: 2px rgb(88, 81, 81) solid;
+  background-color: rgb(151, 149, 149);
+}
+.banner .subtitle {
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.banner .banner-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.banner .banner-body .banner-box {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: center;
+}
+.banner .banner-body .banner-box .icon-title {
+  font-size: large;
+  font-weight: 600;
+}
+/*lower banner*/
+.box {
+  display: flex;
+  padding: 0 50px;
+  gap: 10px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+}
+.box .left .img_coll {
+  height: 170px;
+  width: 260px;
+}
+.mid strong {
+  padding-top: 5px;
+}
+.box .mid-box {
+  display: flex;
+  align-items: center;
+}
+.box .mid-box .badge {
+  height: 30px;
+  width: auto;
+}
+.box .mid-box .admission,
+.ranking,
+.scholarship {
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.small-icon {
+  height: 30px;
+  width: 30px;
+}
+.mid-description {
+  font-size: medium;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.right .fav-icon .heart {
+  height: 40px;
+}
+.right .fav-icon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.right .right-element1,
+.right-element2 {
+  padding: 7px 8px;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+}
+.right-element1 {
+  background-color: white;
+}
+.right-element2 {
+  background-color: red;
+  color: white;
+}
